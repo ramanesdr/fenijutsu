@@ -18,16 +18,16 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/">Accueil</Link>
+            <Link className="nav-link text-danger" to="/">Accueil</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/apropos">À propos</Link>
+            <Link className="nav-link text-danger" to="/apropos">À propos</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/actions">Actions</Link>
+            <Link className="nav-link text-danger" to="/actions">Actions</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link>
+            <Link className="nav-link text-danger" to="/contact">Contact</Link>
           </li>
          
         </ul>
