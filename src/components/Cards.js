@@ -12,7 +12,7 @@ function Cards() {
   return (
     <div className='container'>
      <div className='row'>
-    <div className='col my-4'>
+    <div className='col my-4 d-flex align-items-center justify-content-center'>
 <div className="card bg-dark" style={{width: '18rem'}} >
   <img src={fight} className="card-img-top" alt="..."/>
   <div className="card-body">
@@ -23,7 +23,7 @@ Ce type de compétition n'est actuellement pratiqué qu'au niveau internationnal
   </div>
 </div>
     </div>
-    <div className='col my-4'>
+    <div className='col my-4 d-flex align-items-center justify-content-center'>
 <div className="card bg-dark" style={{width: '18rem'}} >
   <img src={duo} className="card-img-top" alt="..."/>
   <div className="card-body">
@@ -32,7 +32,7 @@ Ce type de compétition n'est actuellement pratiqué qu'au niveau internationnal
   </div>
 </div>
     </div>
-    <div className='col my-4'>
+    <div className='col my-4 d-flex align-items-center justify-content-center'>
 <div className="card bg-dark" style={{width: '18rem'}} >
   <img src={ne} className="card-img-top" alt="..."/>
   <div className="card-body">
