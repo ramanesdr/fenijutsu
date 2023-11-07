@@ -72,7 +72,7 @@
 
 
 @media screen and (max-width: 770px){
-  svg text{
+  #svg text{
     font-size: 75px;
   }
 }
@@ -86,7 +86,7 @@
   
   
   }
-  svg text{
+  #svg text{
     font-size: 50px
   }
 }
