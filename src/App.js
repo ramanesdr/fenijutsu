@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/actions" element={ <Actions /> }/>
         <Route path="/contact" element={ <Contact /> }/>
     </Routes>
+    <Footer />
 </div>
   );
 }
