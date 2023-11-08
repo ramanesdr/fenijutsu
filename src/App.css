@@ -73,9 +73,8 @@
   color: white;
   transform: scale(1.1);
   transition: 1s;
- 
-  -webkit-box-shadow: 5px 5px 0px 0px #ff0000, 10px 10px 0px 0px #ea5b5b, 15px 15px 0px 0px #e58080, 20px 20px 0px 0px #c88484, 25px 25px 0px 0px #E1EEFF, 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0); 
-  box-shadow: 5px 5px 0px 0px #ff0000, 10px 10px 0px 0px #ea5b5b, 15px 15px 0px 0px #e58080, 20px 20px 0px 0px #c88484, 25px 25px 0px 0px #E1EEFF, 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0);
+  -webkit-box-shadow: 5px 5px 0px 0px #ed2828, 10px 10px 0px 0px #ff5f5f, 15px 15px 0px 0px #ffa1a1, 20px 20px 0px 0px #ffcaca, 25px 25px 0px 0px #ffe1e1, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 0px 0px #ed2828, 10px 10px 0px 0px #ff5f5f, 15px 15px 0px 0px #ffa1a1, 20px 20px 0px 0px #ffcaca, 25px 25px 0px 0px #ffe1e1, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 .card:not(:hover){
   transition: 1s;
